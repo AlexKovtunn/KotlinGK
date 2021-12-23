@@ -42,6 +42,7 @@ fun main() {
     val Order1 = Order(ItemEntry(Item("Pods",50.0),10), listOf(DeliveryMethod.CourierDelivery("Kurmangazy",100)),20.0)
     val Order2 = Order(ItemEntry(Item("Pods",150.0),10), listOf(DeliveryMethod.SelfPickup),20.0)
     println(Order1.getTotalPrice())
+    println("hello")
     print(Order2.getTotalPrice())
 }
 
