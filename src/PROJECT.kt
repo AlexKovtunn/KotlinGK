@@ -41,8 +41,10 @@ data class Order(
 fun main() {
     val Order1 = Order(ItemEntry(Item("Pods",50.0),10), listOf(DeliveryMethod.CourierDelivery("Kurmangazy",100)),20.0)
     val Order2 = Order(ItemEntry(Item("Pods",150.0),10), listOf(DeliveryMethod.SelfPickup),20.0)
+    val Order3 = Order(ItemEntry(Item("Pods",200.0),5), listOf(DeliveryMethod.SelfPickup),30.0)
     println(Order1.getTotalPrice())
     print(Order2.getTotalPrice())
+    print(Order3.getTotalPrice())
 }
 
 
